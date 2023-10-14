@@ -182,3 +182,26 @@ h3 {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 440px) {
+  .container {
+    height: auto;
+  }
+
+  .result-summary {
+    border-radius: unset;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .results {
+    border-radius: 0 0 30px 30px;
+    font-size: 1.2rem;
+    width: auto;
+  }
+
+  .summary {
+    font-size: 1.2rem;
+    width: auto;
+  }
+}
