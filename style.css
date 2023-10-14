@@ -164,6 +164,13 @@ h3 {
   color: white;
   font-size: inherit;
   padding: 1rem 0;
+  position: relative;
+  transition: background-color 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: hsl(241, 81%, 54%);
+  cursor: pointer;
 }
 
 /* ATTRIBUTION */
