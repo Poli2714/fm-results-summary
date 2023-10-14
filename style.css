@@ -23,9 +23,11 @@ body {
 }
 
 .result-summary {
+  border-radius: 0 20px 20px 0;
+  box-shadow: 10px 15px 40px -9px hsla(241, 100%, 89%, 0.5);
   display: flex;
   font-size: 1rem;
-  width: 650px;
+  width: 700px;
 }
 
 /* RESULT SECTION */
@@ -38,7 +40,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  padding: 2.5rem;
+  padding: 2.5rem 4rem;
   text-align: center;
   width: 50%;
 }
@@ -59,7 +61,7 @@ h1 {
 
   height: 100px;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 2.5rem;
   width: 100px;
 }
 
@@ -82,7 +84,7 @@ h2 {
   display: flex;
   flex-direction: column;
 
-  padding: 2.5rem 2rem;
+  padding: 2.5rem;
   width: 50%;
 }
 
@@ -111,7 +113,7 @@ h3 {
 }
 
 .category:nth-of-type(1) {
-  background-color: hsla(0, 100%, 67%, 0.1);
+  background-color: hsla(0, 100%, 67%, 0.05);
 }
 
 .reaction {
@@ -121,7 +123,7 @@ h3 {
 }
 
 .category:nth-of-type(2) {
-  background-color: hsla(39, 100%, 56%, 0.1);
+  background-color: hsla(39, 100%, 56%, 0.05);
 }
 
 .memory {
@@ -131,7 +133,7 @@ h3 {
 }
 
 .category:nth-of-type(3) {
-  background-color: hsla(166, 100%, 37%, 0.1);
+  background-color: hsla(166, 100%, 37%, 0.05);
 }
 
 .verbal {
@@ -141,7 +143,7 @@ h3 {
 }
 
 .category:nth-of-type(4) {
-  background-color: hsla(234, 85%, 45%, 0.1);
+  background-color: hsla(234, 85%, 45%, 0.05);
 }
 
 .visual {
@@ -152,6 +154,7 @@ h3 {
 
 .score {
   color: hsl(224, 30%, 27%);
+  font-weight: 700;
 }
 
 .btn {
